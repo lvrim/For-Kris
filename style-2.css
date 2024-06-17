@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#bg
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(stary.jpg);
+    background-repeat: repeat;
+    background-size: 1200px
+}
+.wrapper
+{
+    position: relative;
+    width: 1000px;
+    margin: 100px auto;
+    z-index: 1;
+    background: #f7f2d0;
+    padding: 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+.wrapper h2
+{
+    font-size: 4.3em;
+    margin-bottom:20px;
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+.wrapper h3
+{
+    font-size: 1.5em;
+    margin-bottom:20px;
+    font-family: "Lora", serif;
+}
+.wrapper p
+{
+    font-size: 1.2em;
+    line-height: 1.6em;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
